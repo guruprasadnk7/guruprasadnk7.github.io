@@ -132,8 +132,8 @@ span.blurb {
 
 pre, code {
   font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-	font-size: 11%;
-	line-height: 14%;
+	font-size: 11px;
+	line-height: 14px;
 }
 
 div.papermeta pre {
