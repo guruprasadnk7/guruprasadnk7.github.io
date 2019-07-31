@@ -29,8 +29,8 @@ body {
   position: relative;
   margin: 3em auto 2em auto;
   width: 1000px;
-  font-size: 16px;
-	line-height:20px;
+  font-size: 16pt;
+	line-height:20pt;
 }
 
 a
@@ -132,8 +132,8 @@ span.blurb {
 
 pre, code {
   font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-	font-size: 11px;
-	line-height: 14px;
+	font-size: 11%;
+	line-height: 14%;
 }
 
 div.papermeta pre {
