@@ -1,146 +1,343 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
-font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt,
-dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
-thead, tr, th, td {
-  border: 0pt none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0pt;
-  outline-color: invert;
-  outline-style: none;
-  outline-width: 0pt;
-  padding: 0pt;
-  vertical-align: baseline;
-}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Guruprasad Nayak - Home</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 
-#papertitle
-{
-	color: #1772d0;
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
-	border-collapse: collapse;
-}
+<script type="text/javascript" src="js/hidebib.js"></script>
 
-body {
-  position: relative;
-  margin: 3em auto 2em auto;
-  width: 1000px;
-  font-size: 20pt;
-}
+</head>
+<body>
 
-a
-{
-color:#1772d0;
-text-decoration:none;
-}
+<div class="section">
+<h1>Guruprasad Nayak</h1>
+</div>
+<hr>
 
-a:hover
-{
-	color: #f09228;
-	text-decoration: none;
-}
+<div class="section">
+  
+<table>
+  <tr valign="top"> <td style="width: 600px; vertical-align: top;">
+  I am a PhD candidate in Machine Learning at <a href = "https://www.cs.umn.edu/">UMN</a> where I am advised by <a href = "https://www-users.cs.umn.edu/~kumar001/"> Vipin Kumar</a>. My research interest lies in discovering actionable insights from large scale data using data-driven methodology. I have researched problems in Machine Learning; Weakly Supervised Learning; Rare Class Discovery; Knowledge Graphs; Deep Learning and their applications to practical problems such as tracking changes on the Earth's surface like measuring how much of the Amazonian forests are burning each year.
+  <p><br></p>
+  <p>
+    <a href="javascript:toggleblock('email')">email</a> | <a href="https://github.com/guruprasadnk7">github</a>  | <a href="https://www.linkedin.com/in/nayakguru314/">linkedin</a> | <a href="https://scholar.google.com/citations?user=rX_qvDYAAAAJ&hl=en">google scholar</a>
+  </p>
+  <pre xml:space="preserve" id="email" style="font-size: 12pt;line-height:16pt">
 
-h1 {
-	font-size: 30pt;
-}
+nayak013 AT umn DOT edu
+  </pre>
+  <script xml:space="preserve" language="JavaScript">
+  hideblock('email');
+  </script>
+  </td>
 
-h2 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 20pt;
-  font-weight: 700;
-}
+  <td width="400" align="right" style="vertical-align:top;border-width:0px 0px 0px 0px"><img src="img.jpg" alt="My picture" width="200" /></td>
 
-h4 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 13pt;
-  font-weight: 700;
-}
+    </tr>
+  </table>
+  
+</div>
 
-h3 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
+<div class="section">
+<h2> Publications </h2>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="IRJ">
+<img class="paper" title="Automated assessment of knowledge hierarchy evolution:
+comparing directed acyclic graphs" src="figures/IRJVimp.png" />
+<dispText>
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Automated assessment of knowledge hierarchy evolution:
+comparing directed acyclic graphs</b> <br/>
+<strong>Guruprasad Nayak</strong>, Sourav Dutta, Deepak Ajwani, Patrick Nicholson, Alessandra Sala <br/>
+Information Retrieval Journal, 2019 <br/>
+<a href="https://www.researchgate.net/publication/329716534_Automated_assessment_of_knowledge_hierarchy_evolution_comparing_directed_acyclic_graphs">preprint </a>  &nbsp <a href="https://link.springer.com/article/10.1007/s10791-018-9345-y">Published version </a>  &nbsp <a href="javascript:toggleblock('IRJAbs')">abstract </a>  &nbsp <a href="javascript:toggleblock('IRJBib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/DAGSimilarityKatz">code </a> </p>
+</dispText>
+<div class="papermeta" id="IRJMeta">
+<em id="IRJAbs">Automated construction of knowledge hierarchies from huge data corpora is gaining increasing attention in recent years, in order to tackle the infeasibility of manually extracting and semantically linking millions of concepts. As a knowledge hierarchy evolves with these automated techniques, there is a need for measures to assess its temporal evolution, quantifying the similarities between diferent versions and identifying the relative growth of diferent subgraphs in the knowledge hierarchy. In this paper, we focus on measures that leverage structural properties of the knowledge hierarchy graph to assess the temporal changes. We propose a principled and scalable similarity measure, based on Katz similarity between concept nodes, for comparing diferent versions of a knowledge hierarchy, modeled as a generic directed acyclic graph. We present theoretical analysis to depict that the proposed measure accurately captures the salient properties of taxonomic hierarchies, assesses changes in the ordering of nodes, along with the logical subsumption of relationships among concepts. We also present a linear time variant of the measure, and show that our measures, unlike previous approaches, are tunable to cater to diverse application needs. We further show that our measure provides interpretability, thereby identifying the key structural and logical diference in the hierarchies. Experiments on a real DBpedia and biological knowledge hierarchy showcase that our measures accurately capture structural similarity, while providing enhanced scalability and tunability. Also, we demonstrate that the temporal evolution of diferent subgraphs in this knowledge hierarchy, as captured purely by our structural measure, corresponds well with the known disruptions in the related subject areas.</em>
+<pre xml:space="preserve" id="IRJBib">
 
-ul {
-  list-style: circle;
-}
-
-img {
-  border: none;
-}
-
-li {
-  padding-bottom: 0.5em;
-  margin-left: 1.4em;
-}
-
-strong, b {
-	font-weight:bold;
-}
-
-em, i {
-	font-style:italic;
-}
-
-div.section {
-  clear: both;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-}
-
-div.spanner {
-  clear: both;
-}
-
-div.paper {
-  clear: both;
-  background: #fff;
-  padding: 1em 1em 0em 1em;
-}
-
-div.paper dispText{
-  font-size: 15pt;
-}
-
-div.papermeta {
-  clear: both;
-	margin-left: 210px;
-	background: #fff;
-  padding: 0.2em 1em 1em 1em;
-}
+@article{nayak2019automated,
+  title={Automated assessment of knowledge hierarchy evolution: comparing directed acyclic graphs},
+  author={Nayak, Guruprasad and Dutta, Sourav and Ajwani, Deepak and Nicholson, Patrick and Sala, Alessandra},
+  journal={Information Retrieval Journal},
+  volume={22},
+  number={3-4},
+  pages={256--284},
+  year={2019},
+  publisher={Springer}
+}</pre>
+</td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('IRJAbs');
+hideblock('IRJBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
 
 
-div.paper div.wide {
-  padding-right: 0px;
-}
+<!--------------------------------------------------------------------------->
+<div class="paper" id="SDM19_1">
+<img class="paper" title="Classifying Heterogeneous Sequential Data by Cyclic Domain Adaptation: An Application in Land Cover Detection" src="figures/SDM19_1_websiteFig.jpg" />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Classifying Heterogeneous Sequential Data by Cyclic Domain Adaptation: An Application in Land Cover Detection</b> <br/>
+Xiaowei Jia, <strong>Guruprasad Nayak</strong>, Ankush Khandelwal, Anuj Karpatne, Vipin Kumar <br/>
+SIAM International Conference on Data Mining, 2019 <br/>
+<a href="https://www.researchgate.net/publication/332887930_Classifying_Heterogeneous_Sequential_Data_by_Cyclic_Domain_Adaptation_An_Application_in_Land_Cover_Detection">preprint </a>  &nbsp <a href="https://epubs.siam.org/doi/abs/10.1137/1.9781611975673.61">Published version </a>  &nbsp <a href="javascript:toggleblock('SDM19_1Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('SDM19_1Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="SDM19_1Meta">
+<em id="SDM19_1Abs">Recent advances in processing remote sensing data have provided unprecedented potential for monitoring land covers. However, it is extremely challenging to deploy an automated monitoring system for different regions and across different years given the involved data heterogeneity over space and over time. The heterogeneity exists on two aspects. First, for many land covers, the distinguishing temporal patterns are only visible in certain discriminative period. Due to the change of weather conditions, the discriminative period can shift across space and time, which causes heterogeneity to the sequential data. Second, the collected remote sensing data are affected by acquisition devices and natural variables, e.g., precipitation and sunlight. In this paper, we introduce a novel framework to effectively detect land covers using the sequential remote sensing data. At the same time, we propose new learning strategies based on attention networks and domain adaptation to addresses the aforementioned challenges. The evaluation on two real-world applications - cropland mapping and burned area detection, demonstrate that the proposed method can effectively detect land covers under different weather conditions.
+</em>
+<pre xml:space="preserve" id="SDM19_1Bib">
 
-img.paper {
-	margin-right: 2em;
-  margin-bottom: 0.5em;
-  float: left;
-  width: 200px;
+@inproceedings{jia2019classifying,
+  title={Classifying Heterogeneous Sequential Data by Cyclic Domain Adaptation: An Application in Land Cover Detection},
+  author={Jia, Xiaowei and Nayak, Guruprasad and Khandelwal, Ankush and Karpatne, Anuj and Kumar, Vipin},
+  booktitle={Proceedings of the 2019 SIAM International Conference on Data Mining},
+  pages={540--548},
+  year={2019},
+  organization={SIAM}
 }
+</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('SDM19_1Abs');
+hideblock('SDM19_1Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
 
-span.blurb {
-  font-style:italic;
-  display:block;
-  margin-top:0.75em;
-  margin-bottom:0.5em;
-}
+<!--------------------------------------------------------------------------->
+<div class="paper" id="SDM19_2">
+<img class="paper" title="Spatial Context-Aware Networks for Mining Temporal Discriminative Period in Land Cover Detection" src="figures/SDM19_2_websiteFig.png" />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">Spatial Context-Aware Networks for Mining Temporal Discriminative Period in Land Cover Detection</b> <br/>
+Xiaowei Jia, Sheng Li, Ankush Khandelwal, <strong>Guruprasad Nayak</strong>, Anuj Karpatne, Vipin Kumar <br/>
+SIAM International Conference on Data Mining, 2019 <br/>
+<a href="https://www.researchgate.net/publication/332887114_Spatial_Context-Aware_Networks_for_Mining_Temporal_Discriminative_Period_in_Land_Cover_Detection">preprint </a>  &nbsp <a href="https://epubs.siam.org/doi/abs/10.1137/1.9781611975673.58">Published version </a>  &nbsp <a href="javascript:toggleblock('SDM19_2Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('SDM19_2Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="SDM19_2Meta">
+<em id="SDM19_2Abs">Detecting land use and land cover changes is critical to monitor natural resources and analyze global environmental changes. In this paper, we investigate the land cover detection using the remote sensing data from earth-observing satellites. Due to the natural disturbances, e.g., clouds and aerosoles, and the data acquisition errors by devices, remote sensing data frequently contain much noise. Also, many land covers cannot be easily identified in most dates of a year. Instead, they show distinctive temporal patterns only during certain period of a year, which is also referred to as the discriminative period. To address these challenges, we propose a novel framework which combines the spatial context knowledge with the LSTM-based temporal modeling for land cover detection. Specifically, the framework learns the spatial context knowledge selectively from its neighboring locations. Then we propose two approaches for discriminative period detection based on multi-instance learning and local attention mechanism, respectively. Our evaluations in two real-world applications demonstrate the effectiveness of the proposed method in identifying land covers and detecting discriminative periods.
+</em>
+<pre xml:space="preserve" id="SDM19_2Bib">
 
-pre, code {
-  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-	font-size: 11%;
-	line-height: 14%;
+@inproceedings{jia2019spatial,
+  title={Spatial Context-Aware Networks for Mining Temporal Discriminative Period in Land Cover Detection},
+  author={Jia, Xiaowei and Li, Sheng and Khandelwal, Ankush and Nayak, Guruprasad and Karpatne, Anuj and Kumar, Vipin},
+  booktitle={Proceedings of the 2019 SIAM International Conference on Data Mining},
+  pages={513--521},
+  year={2019},
+  organization={SIAM}
 }
+</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('SDM19_2Abs');
+hideblock('SDM19_2Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
 
-div.papermeta pre {
-	font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-	font-size: 11px;
-	line-height: 14px;
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="KG4IR18">
+<img class="paper" title="Automated Knowledge Hierarchy Assessment" src="figures/KG4IR18.png" />
+<p> <b id="papertitle">Automated Knowledge Hierarchy Assessment</b> <br/>
+<strong>Guruprasad Nayak</strong>, Sourav Dutta, Deepak Ajwani, Patrick Nicholson, Alessandra Sala <br/>
+Second Workshop on Knowledge Graphs and Semantics for Text Retrieval, Analysis, and Understanding (KG4IR), SIGIR 2018 <br/>
+ <a href="http://ceur-ws.org/Vol-2127/paper4-kg4ir.pdf">Published version </a>  &nbsp <a href="javascript:toggleblock('KG4IR18Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('KG4IR18Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="KG4IR18Meta">
+<em id="KG4IR18Abs">Automated construction of knowledge hierarchies is gaining increasing attention to tackle the infeasibility of manually extracting and semantically linking millions of concepts. With the evolution of knowledge hierarchies, there is a need for measures to assess its temporal evolution, quantifying the similarities between different versions and identifying the relative growth of different subgraphs in the knowledge hierarchy. This work proposes a principled and scalable similarity measure, based on Katz similarity between concept nodes, for comparing knowledge hierarchies, modeled as generic Directed Acyclic Graphs (DAGs).
+</em>
+<pre xml:space="preserve" id="KG4IR18Bib">
+
+@inproceedings{nayak2018automated,
+  title={Automated Knowledge Hierarchy Assessment},
+  author={Nayak, Guruprasad and Dutta, Sourav and Ajwani, Deepak and others},
+  booktitle={The Second Workshop on Knowledge Graphs and Semantics for Text Retrieval, Analysis, and Understanding (KG4IR), Michigan, USA, 12 July 2018},
+  volume={2127},
+  pages={59--60},
+  year={2018},
+  organization={CEUR Workshop Proceedings}
 }
+</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('KG4IR18Abs');
+hideblock('KG4IR18Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="SDM18">
+<img class="paper" title="Classifying Multivariate Time Series by Learning Sequence-level Discriminative Patterns" src="figures/SDM18model.png" />
+<p> <b id="papertitle">Classifying Multivariate Time Series by Learning Sequence-level Discriminative Patterns</b> <br/>
+<strong>Guruprasad Nayak</strong>, Varun Mithal, Xiaowei Jia, Vipin Kumar <br/>
+SIAM International Conference on Data Mining, 2018 <br/>
+<a href="https://www.researchgate.net/publication/324999270_Classifying_Multivariate_Time_Series_by_Learning_Sequence-level_Discriminative_Patterns">preprint </a>  &nbsp <a href="https://epubs.siam.org/doi/10.1137/1.9781611975321.29">Published version </a>  &nbsp <a href="javascript:toggleblock('SDM18Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('SDM18Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="SDM18Meta">
+<em id="SDM18Abs">Time series classification algorithms designed to use local context do not work on landcover classification problems where the instances of the two classes may often exhibit similar feature values due to the large natural variations in other land covers across the year and unrelated phenomena that they undergo. In this paper, we propose to learn discriminative patterns from the entire length of the time series, and use them as predictive features to identify the class of interest. We propose a novel neural network algorithm to learn the key signature of the class of interest as a function of the feature values together with the discriminative pattern made from that signature through the entire time series in a joint framework. We demonstrate the utility of this technique on the landcover classification application of burned area mapping that is of considerable societal importance.</em>
+<pre xml:space="preserve" id="SDM18Bib">
+
+@inproceedings{nayak2018classifying,
+  title={Classifying multivariate time series by learning sequence-level discriminative patterns},
+  author={Nayak, Guruprasad and Mithal, Varun and Jia, Xiaowei and Kumar, Vipin},
+  booktitle={Proceedings of the 2018 SIAM International Conference on Data Mining},
+  pages={252--260},
+  year={2018},
+  organization={SIAM}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('SDM18Abs');
+hideblock('SDM18Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="RS18">
+<img class="paper" title="Mapping Burned Areas in Tropical Forests Using a Novel Machine Learning Framework" src="figures/RS18.png" />
+<p> <b id="papertitle">Mapping Burned Areas in Tropical Forests Using a Novel Machine Learning Framework</b> <br/>
+Varun Mithal*, <strong>Guruprasad Nayak*</strong>, Ankush Khandelwal, Vipin Kumar, Ramakrishna Nemani, Nikunj Oza <br/>
+Remote Sensing, 2018 <br/>
+<a href="https://www.researchgate.net/publication/322323239_Mapping_Burned_Areas_in_Tropical_Forests_Using_a_Novel_Machine_Learning_Framework">preprint </a>  &nbsp <a href="https://www.mdpi.com/2072-4292/10/1/69">Published version </a>  &nbsp <a href="javascript:toggleblock('RS18Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('RS18Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="RS18Meta">
+<em id="RS18Abs">This paper presents an application of a novel machine-learning framework on MODIS (moderate-resolution imaging spectroradiometer) data to map burned areas over tropical forests of South America and South-east Asia. The RAPT (RAre Class Prediction in the absence of True labels) framework is able to build data adaptive classification models using noisy training labels. It is particularly suitable when expert annotated training samples are difficult to obtain as in the case of wild fires in the tropics. This framework has been used to build burned area maps from MODIS surface reflectance data as features and Active Fire hotspots as training labels that are known to have high commission and omission errors due to the prevalence of cloud cover and smoke, especially in the tropics. Using the RAPT framework we report burned areas for 16 MODIS tiles from 2001 to 2014. The total burned area detected in the tropical forests of South America and South-east Asia during these years is 2,071,378 MODIS (500 m) pixels (approximately 520 K sq. km.), which is almost three times compared to the estimates from collection 5 MODIS MCD64A1 (783,468 MODIS pixels). An evaluation using Landsat-based reference burned area maps indicates that our product has an average user’s accuracy of 53% and producer’s accuracy of 55% while collection 5 MCD64A1 burned area product has an average user’s accuracy of 61% and producer’s accuracy of 27%. Our analysis also indicates that the two products can be complimentary and a combination of the two approaches is likely to provide a more comprehensive assessment of tropical fires. Finally, we have created a publicly accessible web-based viewer that helps the community to visualize the burned area maps produced using RAPT and examine various validation sources corresponding to every detected MODIS pixel.
+</em>
+<pre xml:space="preserve" id="RS18Bib">
+
+@article{mithal2018mapping,
+  title={Mapping burned areas in tropical forests using a novel machine learning framework},
+  author={Mithal, Varun and Nayak, Guruprasad and Khandelwal, Ankush and Kumar, Vipin and Nemani, Ramakrishna and Oza, Nikunj},
+  journal={Remote Sensing},
+  volume={10},
+  number={1},
+  pages={69},
+  year={2018},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('RS18Abs');
+hideblock('RS18Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="TKDE17">
+<img class="paper" title="RAPT: Rare Class Prediction in Absence of True Labels" src="figures/TKDE17.png" />
+<p> <b id="papertitle">RAPT: Rare Class Prediction in Absence of True Labels</b> <br/>
+Varun Mithal, <strong>Guruprasad Nayak</strong>, Ankush Khandelwal, Vipin Kumar, Nikunj Oza, Ramakrishna Nemani <br/>
+IEEE Transactions on Knowledge and Data Engineering, 2017 <br/>
+<a href="https://www.researchgate.net/publication/319524616_RAPT_Rare_Class_Prediction_in_Absence_of_True_Labels">preprint </a>  &nbsp <a href="https://ieeexplore.ieee.org/document/8010437">Published version </a>  &nbsp <a href="javascript:toggleblock('TKDE17Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('TKDE17Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="TKDE17Meta">
+<em id="TKDE17Abs">Many real-world problems involve learning models for rare classes in situations where there are no gold standard labels for training samples but imperfect labels are available for all instances. In this paper, we present RAPT, a three step predictive modeling framework for classifying rare class in such problem settings. The first step of the proposed framework learns a classifier that jointly optimizes precision and recall by only using imperfectly labeled training samples. We also show that, under certain assumptions on the imperfect labels, the quality of this classifier is almost as good as the one constructed using perfect labels. The second and third steps of the framework make use of the fact that imperfect labels are available for all instances to further improve the precision and recall of the rare class. We evaluate the RAPT frameworkon two real-world applications of mapping forest fires and urban extent from earth observing satellite data. The experimental results indicate that RAPTcan be used to identifyforest fires and urban areas with high precision and recall by using imperfect labels, even though obtaining expert annotated samples on a global scale is infeasible in these applications.
+</em>
+<pre xml:space="preserve" id="TKDE17Bib">
+
+@article{mithal2017rapt,
+  title={Rapt: Rare class prediction in absence of true labels},
+  author={Mithal, Varun and Nayak, Guruprasad and Khandelwal, Ankush and Kumar, Vipin and Oza, Nikunj C and Nemani, Ramakrishna},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={29},
+  number={11},
+  pages={2484--2497},
+  year={2017},
+  publisher={IEEE}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('TKDE17Abs');
+hideblock('TKDE17Bib');
+</script>
+</div>
+</div>
+<!-------------------------------------------------------------------------->
+
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="KDD17">
+<img class="paper" title="Predict Land Covers with Transition Modeling and Incremental Learning" src="figures/KDD17.png" />
+<p> <b id="papertitle">Predict Land Covers with Transition Modeling and Incremental Learning</b> <br/>
+Xiaowei Jia, Ankush Khandelwal, <strong>Guruprasad Nayak</strong>, James Gerber, Kimberley Carlson, Paul West, Vipin Kumar <br/>
+ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2017 <br/>
+<a href="https://www.researchgate.net/publication/318917041_Incremental_Dual-memory_LSTM_in_Land_Cover_Prediction">preprint </a>  &nbsp <a href="https://dl.acm.org/citation.cfm?id=3098112">Published version </a>  &nbsp <a href="javascript:toggleblock('KDD17Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('KDD17Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> &nbsp <a href="https://www.youtube.com/watch?v=R9Q2cqrjgTA">Promotional video </a> </p>
+<div class="papermeta" id="KDD17Meta">
+<em id="KDD17Abs">Land cover prediction is essential for monitoring global environmental change. Unfortunately, traditional classification models are plagued by temporal variation and emergence of novel/unseen land cover classes in the prediction process. In this paper, we propose an LSTM-based spatio-temporal learning framework with a dual-memory structure. The dual-memory structure captures both long-term and short-term temporal variation patterns, and is updated incrementally to adapt the model to the ever-changing environment. Moreover, we integrate zero-shot learning to identify unseen classes even without labelled samples. Experiments on both synthetic zand real-world datasets demonstrate the superiority of the proposed framework over multiple baselines in land cover prediction.</em>
+<pre xml:space="preserve" id="KDD17Bib">
+
+@inproceedings{jia2017incremental,
+  title={Incremental dual-memory lstm in land cover prediction},
+  author={Jia, Xiaowei and Khandelwal, Ankush and Nayak, Guruprasad and Gerber, James and Carlson, Kimberly and West, Paul and Kumar, Vipin},
+  booktitle={Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={867--876},
+  year={2017},
+  organization={ACM}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('KDD17Abs');
+hideblock('KDD17Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="SDM17">
+<img class="paper" title="Predict Land Covers with Transition Modeling and Incremental Learning" src="figures/SDM17.png" />
+<p> <b id="papertitle">Predict Land Covers with Transition Modeling and Incremental Learning</b> <br/>
+Xiaowei Jia, Ankush Khandelwal, <strong>Guruprasad Nayak</strong>, James Gerber, Kimberley Carlson, Paul West, Vipin Kumar <br/>
+SIAM International Conference on Data Mining, 2017 <br/>
+<a href="https://www.researchgate.net/publication/317485490_Predict_Land_Covers_with_Transition_Modeling_and_Incremental_Learning">preprint </a>  &nbsp <a href="https://epubs.siam.org/doi/abs/10.1137/1.9781611974973.20">Published version </a>  &nbsp <a href="javascript:toggleblock('SDM17Abs')">abstract </a>  &nbsp <a href="javascript:toggleblock('SDM17Bib')">bibtex </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="SDM17Meta">
+<em id="SDM17Abs">Successful land cover prediction can provide promising insights in the applications where manual labeling is extremely difficult. However, traditional machine learning models are plagued by temporal variation and noisy features when directly applied to land cover prediction. Moreover, these models cannot take fully advantage of the spatio-temporal relationship involved in land cover transitions. In this paper, we propose a novel spatio-temporal framework to discover the transitions among land covers and at the same time conduct classification at each time step. Based on the proposed model, we incrementally update the model parameters in the prediction process, thus to mitigate the impact of the temporal variation. Our experiments in two challenging land cover applications demonstrate the superiority of the proposed method over multiple baselines. In addition, we show the efficacy of spatio-temporal transition modeling and incremental learning through extensive analysis.</em>
+<pre xml:space="preserve" id="SDM17Bib">
+
+@inproceedings{jia2017predict,
+  title={Predict land covers with transition modeling and incremental learning},
+  author={Jia, Xiaowei and Khandelwal, Ankush and Nayak, Guruprasad and Gerber, James and Carlson, Kimberly and West, Paul and Kumar, Vipin},
+  booktitle={Proceedings of the 2017 SIAM International Conference on Data Mining},
+  pages={171--179},
+  year={2017},
+  organization={SIAM}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('SDM17Abs');
+hideblock('SDM17Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+
+
+
+
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="CI16">
+<img class="paper" title="Multiple Instance Learning for burned area mapping using multitemporal reflectance data" src="figures/CI16.png" />
+<p> <b id="papertitle">Multiple Instance Learning for burned area mapping using multitemporal reflectance data</b> <br/>
+<strong>Guruprasad Nayak</strong>, Varun Mithal, Vipin Kumar <br/>
+International Workshop on Climate Informatics, 2016 <br/>
+<a href="https://www2.cisl.ucar.edu/events/2016/multiple-instance-learning-burned-area-mapping-using-multi-temporal-reflectance-data">Published version </a>  &nbsp <a href="javascript:toggleblock('CI16Abs')">abstract </a>  &nbsp <a href="https://github.com/guruprasadnk7/">code </a> </p>
+<div class="papermeta" id="CI16Meta">
+<em id="CI16Abs">Mapping burned area on a global scale typically requires the use of a weak signal like Active Fire for training the burned scar classification model. Since these weak signals typically are inaccurate with respect to temporal and spatial pinpointing of the event occurrence, the use of Multiple instance learning paradigm to model the occurrence of the event in a wider spatio-temporal window is demonstrably beneficial than using the exact date of the weak signal. In this work, we demonstrate the use of MIL algorithm to model the temporal uncertainty of the weak signal. We further propose an noise-robust extension to the MIL paradigm for learning on sequence data.
+</em>
+</td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('CI16Abs');
+</script>
+</div>
+</div>
+<!-------------------------------------------------------------------------->
+
+
+
+
+</body>
+</html>
