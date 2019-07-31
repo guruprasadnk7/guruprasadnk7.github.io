@@ -100,8 +100,11 @@ div.spanner {
 div.paper {
   clear: both;
   background: #fff;
-  font-size: 20pt;
   padding: 1em 1em 0em 1em;
+}
+
+div.paper dispText{
+  font-size: 20pt;
 }
 
 div.papermeta {
