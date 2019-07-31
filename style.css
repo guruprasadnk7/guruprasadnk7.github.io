@@ -29,8 +29,8 @@ body {
   position: relative;
   margin: 3em auto 2em auto;
   width: 1000px;
-  font-size: 20pt;
-  line-height:21pt;
+  font-size: 18pt;
+  line-height:19pt;
 }
 
 a
@@ -51,7 +51,7 @@ h1 {
 
 h2 {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 20pt;
+  font-size: 18pt;
   font-weight: 700;
 }
 
