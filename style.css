@@ -44,7 +44,7 @@ h2 {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 200px) {
   body {
   position: relative;
   margin: 3em auto 2em auto;
