@@ -48,7 +48,38 @@ nayak013 AT umn DOT edu
 
 <div class="section">
 <h2> Publications </h2>
-	
+
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="ISM2023">
+<img class="paper" title="Deep layers beware: Unraveling the surprising benefits of JPEG compression for image classification pre-processing " src="figures/ISM2023.jpeg" />
+<dispText>
+<p><b id="papertitle">Deep layers beware: Unraveling the surprising benefits of JPEG compression for image classification pre-processing </b> <br/>
+<strong>Guruprasad Nayak</strong>, Gerald Friedland <br/>
+25th IEEE International Symposium on Multimedia 2023<br/>
+<a href="https://arxiv.org/abs/2108.07330">preprint </a>  &nbsp <a href="javascript:toggleblock('DEMAL2021Abs')">abstract </a> &nbsp <a href="https://demalworkshop.github.io/kdd2021/papers/WeaklySupervised.pdf">Published version </a> &nbsp <a href="javascript:toggleblock('DEMAL2021Bib')">bibtex </a> 
+ 
+  </p>
+
+<div class="papermeta" id="ISM2023Meta">
+<em id="ISM2023Abs"> In this paper, we explore the intriguing effects of JPEG compression as a pre-processing technique for image classification tasks. Building upon the findings of a previous study by Friedland et al., which demonstrated that substantial JPEG compression does not significantly degrade classification accuracy, we investigate the potential benefits and limitations of this approach when applied to various classifiers, such as AutoGluon-multimodal and EfficientNet. Our experiments not only confirm the original results but also reveal notable I/O benefits, with compressed images occupying as little as 14 % of the original dataset size while maintaining comparable accuracy. Despite these promising findings, we also document several investigations that did not yield beneficial outcomes. We found no evidence to suggest that JPEG compression leads to faster model convergence or allows smaller models to achieve the same accuracy. Additionally, our experiments showed that tabular classifiers could not match the performance of deep neural networks when trained on JPEG-compressed input, and that JPEG compression does not make classifiers more resilient to noise in input images. Together, our results provide a comprehensive evaluation of JPEG compression as a pre-processing technique for image classification. While the approach offers undeniable benefits in terms of data storage and accuracy preservation, it does not appear to yield advantages in terms of model convergence, model size, or robustness to noise. This study contributes valuable insights for researchers and practitioners working in multimedia signal processing and image recognition, paving the way for further exploration and optimization of multimedia compression techniques.  </em>
+<pre xml:space="preserve" id="ISM2023Bib">
+@article{nayak2021weakly,
+  title={Deep layers beware: Unraveling the surprising benefits of JPEG compression for image classification pre-processing },
+  author={Nayak, Guruprasad and Friedland, Gerald},
+  booktitle={25th IEEE International Symposium on Multimedia 2023},
+  year={2023}
+}
+</pre>
+</td>
+</dispText>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('ISM2023Abs');
+hideblock('ISM2023Bib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
 	
 <!--------------------------------------------------------------------------->
 <div class="paper" id="DEMAL2021">
